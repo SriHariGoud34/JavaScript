@@ -1,0 +1,7 @@
+var n = 6; // depends on your input declaration
+if (n%2==0) {
+    console.log("it\'s Even Number")
+}
+else {
+    console.log("it\'s Odd Number")
+}
