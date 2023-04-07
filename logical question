@@ -1,0 +1,19 @@
+
+// a person travel in bus first 1km 30rs and next every 1km 20rs so, the person paid 230rs how much distance he travelled? 
+
+// IBS TR interview question i faced
+
+var n = 230;
+if (n<30) {
+    console.log("less than 1km")
+}
+else if (n==30) {
+    console.log("equal")
+}
+else  {
+    a = n-30;
+    b = a/20;
+    sum = 1+b
+    console.log(sum,"km")
+      
+}
