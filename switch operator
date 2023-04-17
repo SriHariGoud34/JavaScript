@@ -1,0 +1,15 @@
+ let num1 = +prompt("enter value")
+        let num2 = +prompt("enter value")
+        operation = prompt("+/-/*")
+        switch(operation) {
+            case "+":
+            alert(num1+num2)
+                        break;
+            case "-":
+            alert(num1-num2)
+            break;
+            case "*":
+            alert(num1*num2)
+            default: 
+            alert("select operator")
+        }
