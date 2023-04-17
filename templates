@@ -1,0 +1,5 @@
+<script>
+    var a = "hari"
+    var b = 23
+    document.write(`my name is ${a} and age is ${b}`)
+</script>
