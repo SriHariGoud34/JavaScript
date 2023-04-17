@@ -1,0 +1,5 @@
+ var sum = 0
+      for (num=1;num<=5;num++){
+        sum = sum+num
+      }
+      document.write(sum)
