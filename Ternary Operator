@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="device=width-device, initial-scale=1.0">
+        <title>
+            javascript
+        </title>
+    </head>
+    <body>
+       <script>
+        let a = 30;
+        let b = 20;
+        let ans = (a>b) ? a : b;
+        document.write(ans)
+       </script>
+    </body>
+</html>
