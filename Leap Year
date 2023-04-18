@@ -1,0 +1,9 @@
+  let leap_year = prompt("enter year")
+  if (leap_year%4==0 || leap_year%400==0 && leap_year%100 != 0){
+    alert("It\'s leap year")
+    document.write("It\'s leap year")
+  }
+  else {
+    alert("It\'s not leap year")
+    document.write("It\'s not leap year")
+  }
