@@ -1,0 +1,9 @@
+let n = [1,4,6,8,9,3]
+let max = n[0]
+
+for(i of n){
+    if(n[i]>max){
+        max = n[i]
+    }
+}
+console.log(max)
