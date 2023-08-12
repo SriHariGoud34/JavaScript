@@ -1,0 +1,5 @@
+let a = prompt('enter ');
+let b = prompt('enter ');
+[a,b] = [b,a]
+console.log(a);
+console.log(b)
