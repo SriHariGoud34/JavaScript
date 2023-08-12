@@ -1,0 +1,9 @@
+let n = [1,4,6,8,9,3]
+let min = n[0]
+
+for(i of n){
+    if(n[i]<min){
+        min = n[i]
+    }
+}
+console.log(min)
