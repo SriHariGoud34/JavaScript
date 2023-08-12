@@ -1,0 +1,15 @@
+let n = [1,4,6,8,9,3]
+let f = n[0]
+let sec = n[0];
+for(i of n){
+    if(n[i]>f){
+        f = n[i]
+    }
+}
+for (i of n){
+    if (n[i]>sec && n[i] != f){
+        sec = n[i]
+    }
+}
+console.log(f)
+console.log(sec)
