@@ -1,0 +1,7 @@
+let a = prompt('enter the num')
+let b = prompt('enter the num')
+let temp = a
+a = b
+b = temp
+console.log(a)
+console.log(b)
